@@ -12,9 +12,8 @@ export function trouverParDate(releves, date) {
 
 // Renvoie un NOUVEAU tableau avec les relevés dont la pluie est SUPÉRIEURE OU ÉGALE au seuil (en mm).
 export function joursPluvieux(releves, seuil) {
-  throw new Error('TODO : coder joursPluvieux dans src/recherche.js');
+  return releves.filter(releve => releve.pluieMm >= seuil);
 }
-
 // Renvoie une COPIE triée par température croissante, avec un comparateur numérique.
 // Deux relevés égaux gardent leur ordre d'origine. Le tableau reçu ne doit pas changer d'ordre.
 export function trierParTemperature(releves) {
