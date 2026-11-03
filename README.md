@@ -4,7 +4,7 @@
 
 ## Contexte
 
-✏️ *En trois à cinq phrases : qui utilise l'outil, quel problème il résout, ce qu'il ne permet pas de conclure.*
+Notre outil est utilisé par les personnes qui travaillent dans le domaine agricole .En mesurant la température, l'humidité de l'air et les précipitations, elle résout le problème du manque de précision des bulletins météo régionaux globaux en fournissant des données  exactes pour une agriculture precise . il ne permet pas de conclure le climat.
 
 ## Prérequis et lancement
 
@@ -23,12 +23,12 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ✏️ *Cochez seulement ce qui marche : `- [x]`.*
 
-- [ ] Données lues et enregistrées dans `donnees/releves.json`
-- [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
-- [ ] Lister les relevés, message si le journal est vide
-- [ ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
-- [ ] Trier par température ou par pluie
-- [ ] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
+- [x] Données lues et enregistrées dans `donnees/releves.json`
+- [x] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
+- [x] Lister les relevés, message si le journal est vide
+- [x] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
+- [x] Trier par température ou par pluie
+- [x] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
 - [ ] Bonus : supprimer et modifier un relevé (choix 6 et 7)
 - [ ] Bonus : tri par température décroissante, journée la plus chaude
 
