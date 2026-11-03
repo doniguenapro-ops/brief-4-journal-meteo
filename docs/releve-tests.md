@@ -8,11 +8,11 @@
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
+| calcule à la main :temperature moyenne | 28°C| 28°C|COULIBALY Doniguena Salif |
+| calcule à la main :temperature minimale | 26°C| 26°C| COULIBALY Doniguena Salif|
+| calcule à la main :temperature maximale  |30°C | 30°C |COULIBALY Doniguena Salif |
+|calcule à la main :cumul de pluie | 45mm|45mm | COULIBALY Doniguena Salif|
+| calcule à la main : journée>= 10mm|2 jours(M03,M08) | 2 jours(M03,M08)|COULIBALY Doniguena Salif |
+
 
 **Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
