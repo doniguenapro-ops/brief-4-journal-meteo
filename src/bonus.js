@@ -9,7 +9,15 @@ export const CHAMPS_MODIFIABLES = ['date', 'temperatureC', 'pluieMm', 'humiditeA
 // Retire du journal le relevé qui a cet identifiant.
 // Renvoie le relevé retiré, ou undefined s'il n'existe pas : le journal ne change pas.
 export function supprimerReleve(releves, id) {
-  throw new Error('TODO : coder supprimerReleve dans src/bonus.js');
+ const position = releves.findIndex(releve => releve.id === id);
+
+  if (position === -1) {
+    return undefined;
+  }
+
+  const releveSupprime = releves.splice(position, 1);
+
+  return releveSupprime[0];
 }
 
 // Modifie UN champ du relevé qui a cet identifiant. La nouvelle valeur arrive sous forme de TEXTE.
