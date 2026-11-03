@@ -27,7 +27,34 @@ export function supprimerReleve(releves, id) {
 // · valeur refusée par les règles de l'ajout (leurs erreurs). En cas d'erreur, le relevé ne change pas.
 // Exemple : modifierReleve(releves, 'M03', 'pluieMm', '11') → [] et M03 a maintenant 11 mm (un nombre).
 export function modifierReleve(releves, id, champ, valeur) {
-  throw new Error('TODO : coder modifierReleve dans src/bonus.js');
+   const releve = trouverParId(releves, id);
+
+  if (!releve) {
+    return ["Identifiant inconnu."];
+  }
+
+  if (champ === 'id') {
+    return ["Le champ id ne peut pas être modifié."];
+  }
+
+  if (!CHAMPS_MODIFIABLES.includes(champ)) {
+    return ["Champ non modifiable."];
+  }
+
+  const saisie = {
+    ...releve,
+    [champ]: valeur
+  };
+
+  const erreurs = verifierReleve(saisie, releves.filter(r => r.id !== id));
+
+  if (erreurs.length > 0) {
+    return erreurs;
+  }
+
+  releve[champ] = champ === 'date' ? valeur : Number(valeur);
+
+  return [];
 }
 
 // Renvoie une COPIE triée par température décroissante : la plus chaude d'abord.
