@@ -29,8 +29,8 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 - [x] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
 - [x] Trier par température ou par pluie
 - [x] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
-- [ ] Bonus : supprimer et modifier un relevé (choix 6 et 7)
-- [ ] Bonus : tri par température décroissante, journée la plus chaude
+- [] Bonus : supprimer et modifier un relevé (choix 6 et 7)
+- [x] Bonus : tri par température décroissante, journée la plus chaude
 
 ## Données
 
@@ -38,7 +38,10 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Limites
 
-✏️ *Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.*
+✏️ *Au moins trois. 
+ dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.
+ L'humidité relative de l'air n'est pas l'humidité du sol
+ Le seuil de 10 mm est une catégorie d'exercice : il ne prévoit ni inondation ni stress hydrique.
 
 ## Documents
 
@@ -46,4 +49,4 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+✏️ *Doniguena Salif COULIBALY, doniguenapro-ops !. Entraide : avec qui, sur quoi.*
