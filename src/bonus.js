@@ -27,7 +27,7 @@ export function supprimerReleve(releves, id) {
 // · valeur refusée par les règles de l'ajout (leurs erreurs). En cas d'erreur, le relevé ne change pas.
 // Exemple : modifierReleve(releves, 'M03', 'pluieMm', '11') → [] et M03 a maintenant 11 mm (un nombre).
 export function modifierReleve(releves, id, champ, valeur) {
-   const releve = trouverParId(releves, id);
+  const releve = trouverParId(releves, id);
 
   if (!releve) {
     return ["Identifiant inconnu."];
@@ -56,7 +56,6 @@ export function modifierReleve(releves, id, champ, valeur) {
 
   return [];
 }
-
 // Renvoie une COPIE triée par température décroissante : la plus chaude d'abord.
 export function trierParTemperatureDecroissante(releves) {
    return [...releves].sort((a, b) => b.temperatureC - a.temperatureC);
@@ -65,5 +64,15 @@ export function trierParTemperatureDecroissante(releves) {
 // Renvoie le relevé dont la température est la plus haute (le premier en cas d'égalité),
 // ou null si la liste est vide.
 export function journeeLaPlusChaude(releves) {
-  throw new Error('TODO : coder journeeLaPlusChaude dans src/bonus.js');
+ if (releves.length === 0) {
+    return null;
+  }
+
+  return releves.reduce((plusChaude, releve) => {
+    if (releve.temperatureC > plusChaude.temperatureC) {
+      return releve;
+    }
+
+    return plusChaude;
+  });
 }
