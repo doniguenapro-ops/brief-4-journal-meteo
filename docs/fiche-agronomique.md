@@ -10,4 +10,4 @@
 
 **Une limite pour l'interprétation climatique** (dix jours contre une trentaine d'années pour un climat ; ce que le seuil de 10 mm ne prévoit pas ; l'humidité de l'air n'est pas celle du sol) : ✏️
 
-Sources : ✏️ · Relu par le coach le : ✏️
+Sources : donnees/releves.json· Relu par le coach le : ✏️
