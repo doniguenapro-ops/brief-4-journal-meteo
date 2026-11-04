@@ -56,7 +56,6 @@ export function verifierReleve(saisie, releves) {
   if (Number.isNaN(humidite) || humidite < 0 || humidite > 100) {
     erreurs.push("Humidité de l'air invalide.");
   }
-
   return erreurs;
 }
 
@@ -75,14 +74,11 @@ export function creerReleve(saisie) {
 // Renvoie les erreurs : [] si le relevé a été ajouté ; sinon les messages, et rien n'est ajouté.
 export function ajouterReleve(releves, saisie) {
   const erreurs = verifierReleve(saisie, releves);
-
   if (erreurs.length > 0) {
     return erreurs;
   }
 
   const releve = creerReleve(saisie);
-
   releves.push(releve);
-
   return [];
 }
