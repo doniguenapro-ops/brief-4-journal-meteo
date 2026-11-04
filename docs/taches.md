@@ -4,8 +4,8 @@
 
 | Tâche | Prévu | Fait le | Preuve |
 | --- | --- | --- | --- |
-| Poste et dépôt prêts ; besoin compris ; documents commencés | | | |
-| Fiche 2 : lire et écrire le JSON | | | |
+| Poste et dépôt prêts ; besoin compris ; documents commencés |Jour 1 |2026-2-11| https://github.com/doniguenapro-ops/brief-4-journal-meteo|
+| Fiche 2 : lire et écrire le JSON |Jour 1 | 2026-2-11| npm run test:stockagE|
 | Fiche 3 : ajouter et lister ; choix 1 et 2 ; erreurs | | | |
 | Fiche 4 : rechercher et trier ; choix 3 et 4 | | | |
 | Fiche 5 : synthèse ; choix 5 | | | |
