@@ -8,6 +8,6 @@
 
 **Saison** : La saison  correpond à la petite saison des pluie
 
-**Une limite pour l'interprétation climatique** (dix jours contre une trentaine d'années pour un climat ; ce que le seuil de 10 mm ne prévoit pas ; l'humidité de l'air n'est pas celle du sol) : ✏️
+**Une limite pour l'interprétation climatique** (dix jours contre une trentaine d'années pour un climat ; ce que le seuil de 10 mm ne prévoit pas ; l'humidité de l'air n'est pas celle du sol) : Le seuil de 10 mm est une catégorie d'exercice : il ne prévoit ni inondation ni stress hydrique.
 
 Sources : donnees/releves.json· Relu par le coach le : ✏️
