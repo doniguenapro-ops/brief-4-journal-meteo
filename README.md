@@ -29,7 +29,7 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 - [x] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
 - [x] Trier par température ou par pluie
 - [x] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
-- [] Bonus : supprimer et modifier un relevé (choix 6 et 7)
+- [x] Bonus : supprimer et modifier un relevé (choix 6 et 7)
 - [x] Bonus : tri par température décroissante, journée la plus chaude
 
 ## Données
