@@ -4,6 +4,6 @@
 
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 |length | https://developer.mozilla.org/fr/docs/Web/JavaScript| donne le nombre d'éléments| listerReleves |
-| ✏️ | | | |
+| find()|google | renvoie le premier élément qui respecte la condition |  return releves.find(releve => releve.id === id);|
 | ✏️ | | | |
 | ✏️ | | | |
