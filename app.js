@@ -18,8 +18,6 @@ function afficherMenu() {
   console.log('3. Rechercher (identifiant, date, journées pluvieuses)');
   console.log('4. Trier (température, pluie)');
   console.log('5. Synthèse de la série');
-  console.log('6. Supprimer un relevé (bonus)');
-  console.log('7. Modifier un relevé (bonus)');
   console.log('0. Quitter');
 }
 
@@ -209,11 +207,6 @@ async function main() {
             break;
           case '5':
             afficherSynthese(releves);
-            break;
-          case '6':
-            continuer = await supprimer(releves);
-            break;
-          case '7':
             continuer = await modifier(releves);
             break;
           default:
