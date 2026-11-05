@@ -12,6 +12,6 @@
 | Tests par un camarade ; mes propres tests | | | |
 | Fiche agronomique ; README ; documents |Jour 2 | 2026-3-11|voir redme,agronomique |
 | Dépôt cloné et lancé ailleurs ; démonstration répétée | | | |
-| Bonus |Jour 3  |2026-4-11 | npm run test:bonus: 8 sont vert|
+| Bonus ||||
 
 **Blocages** (le message exact, ce que j'ai essayé, la solution) : ✏️
